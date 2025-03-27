@@ -4,4 +4,16 @@ export default class Armor {
         this.minLevel = minLevel;
         this.defense = defense;
     }
+
+    getName() {
+        return this.name;
+    }
+
+    getMinLevel() {
+        return this.minLevel;
+    }
+
+    getDefense() {
+        return this.defense;
+    }
 }
